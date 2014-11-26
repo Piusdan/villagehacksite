@@ -1,10 +1,10 @@
-#GDays Kenya Repo
+#VillageHack Website
 ------------------
 
 
 ## Introduction
 
-Welcome to the GDays Kenya Repository that is serving our [G|Days Kenya Site](http://gdayskenya14.appspot.com/).
+This is a repo for the v1 of  [@VillageHack](http://gdayskenya14.appspot.com/) website.
 
 ## Requirements
 Set up Python For App Engine
