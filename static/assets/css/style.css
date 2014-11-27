@@ -101,7 +101,7 @@ header .date { font-size: 1.2em; color: #999; border-left:solid 4px #eea236; pad
 .btn.green:hover{background: #eea236;}
 .btn.register span { color: #840000;  }
 
-#main { background: #222 url('../img/bgrnd.jpg') 0 -100px no-repeat; background-size: cover; color: #fff; padding: 70px 0 60px; text-align: center; }
+#main { background: #222 url('../img/bgrnd.jpg') 0 -200px no-repeat; background-size: cover; color: #fff; padding: 70px 0 60px; text-align: center; }
 #main h3, #main h6 { font-weight: 200; }
 #main h5 { color: #fff; font-size: 11px; font-weight: 400; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 20px; }
 #main h6 { color: rgba(255,255,255,0.5); margin: 15px 0 0; }
