@@ -90,7 +90,7 @@ header h1.logo a span { display: none; }
 header .introduction { float: right; margin: 0; width: 610px; }
 header .introduction h2 { color: #000; font-size: 30px; font-weight: 100; line-height: 30px; margin: 0 0 20px; }
 header p { margin-bottom: 15px; }
-header .date { font-size: 1.2em; color: #999; border-left:solid 4px #eea236; padding: 0 5px; }
+header .date { font-size: 1em; color: #999; border-left:solid 4px #eea236; padding: 0 5px; }
 /*header .date span { color: #D80000; font-weight: 400; }*/
 
 .btn { display: inline-block; text-decoration: none; }
@@ -100,6 +100,8 @@ header .date { font-size: 1.2em; color: #999; border-left:solid 4px #eea236; pad
 .btn.green { background-color: #5cb85c;color: #fff; font-size: 24px; transition: 2s; }
 .btn.green:hover{background: #eea236;}
 .btn.register span { color: #840000;  }
+.btn.orange { background-color: #eea236;color: #fff; font-size: 24px; transition: 2s; }
+.btn.green:hover{background: #5cb85c;}
 
 #main { background: #222 url('../img/bgrnd.jpg') 0 -200px no-repeat; background-size: cover; color: #fff; padding: 70px 0 60px; text-align: center; }
 #main h3, #main h6 { font-weight: 200; }
@@ -181,7 +183,9 @@ footer .copyright { color: #999; font-size: 13px; font-weight: 700; margin: 10px
 @media (max-width: 480px) { 
 	header h1.logo, header .introduction { display: block; float: none; }
 	header .introduction .social-sharers { display: none; }
-}.btnStyle {
+}
+
+.btnStyle {
 	-moz-box-shadow:inset 0px 1px 0px 0px #cae3fc;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #cae3fc;
 	box-shadow:inset 0px 1px 0px 0px #cae3fc;
@@ -201,12 +205,16 @@ footer .copyright { color: #999; font-size: 13px; font-weight: 700; margin: 10px
 	padding:4px 17px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #287ace;
-}.btnStyle:hover {
+}
+
+.btnStyle:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
 	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
 	background-color:#4197ee;
-}.btnStyle:active {
+}
+
+.btnStyle:active {
 	position:relative;
 	top:1px;
 }
