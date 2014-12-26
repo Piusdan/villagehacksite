@@ -87,6 +87,9 @@ header h1.logo, header .introduction { display: inline-block; }
 header h1.logo { display: block; float: left; height: 170px; margin: 0; width: 230px; }
 header h1.logo a { display: inline-block; }
 header h1.logo a span { display: none; }
+header h1.logo img{
+	padding-top: 80px;
+}
 header .introduction { float: right; margin: 0; width: 610px; }
 header .introduction h2 { color: #000; font-size: 30px; font-weight: bold; line-height: 30px; margin: 0 0 20px; }
 header p { margin-bottom: 15px; }
